@@ -1,0 +1,361 @@
+/*
+Theme Name: Jelly Bean
+Theme URI: https://wordpress.org/themes/jellybean/
+Author: the WordPress team
+Author URI: https://friendsofdesign.net/
+Description: PHP & WordPress
+Version: 1.3
+Text Domain: jellybean
+*/
+
+@import url(css/mainstyle.css);
+
+.ngg-gallery-thumbnail-box {
+  width: 33%;
+  border: none;
+}
+
+html {
+  max-width: 1000px;
+  margin: 0 auto; 
+  background-color: white; }
+
+.header-title {
+  margin: 60px 0 60px 0; }
+  .header-title h1 {
+    font-size: 2.7em;
+    letter-spacing: 3.7pt;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase; }
+  .header-title h5 {
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #ff8000; }
+
+.open-nav {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 15px 0 0 15px;
+  font-size: 30pt;
+  color: #FF005D; }
+
+/* side nav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #ff8000;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 70px;
+  text-align: center; }
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+    .sidenav a {
+      font-size: 18px; } }
+
+hr {
+  margin: 15px 0 15px 0;
+  border-top: 2px solid #000000; }
+
+.nav {
+  text-align: center; }
+  .nav ul {
+    margin: 0; }
+  .nav a {
+    color: #000000;
+    text-decoration: none; }
+  .nav li {
+    display: inline;
+    text-decoration: none;
+    padding: 0 3.3em 0 3.3em;
+    text-transform: uppercase; }
+  .nav a:hover {
+    font-weight: 600;
+    color: #ff8000;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s; }
+  .nav a:active {
+    font-weight: 900;
+    color: #000000; }
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+button, .button {
+  opacity: 0.8;
+  background-color: #fff;
+  border-radius: 0;
+  border: 1.5px solid #000000;
+  color: #000000;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s; }
+
+button:hover, .button:hover {
+  border-radius: 0;
+  border: 1.5px solid #ff8000;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+
+.header-image {
+  position: relative; }
+
+.image-text {
+  position: absolute;
+  z-index: 5;
+  left: 50px;
+  bottom: 40px; }
+
+.header-image h4 {
+  font-size: 30pt;
+  font-weight: 600;
+  color: #ff8000; }
+
+.bodytext {
+  margin: 20px 0; }
+
+.third-section {
+  position: relative;
+  text-align: center;
+  padding: 0; }
+  .third-section img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.button {
+  position: relative;
+  z-index: 1;
+  bottom: 80px; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000; }
+  a:hover {
+    color: #000000; }
+
+.footer-text {
+  padding-bottom: 60px; }
+  .footer-text p {
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin: 0 auto; }
+
+.ad-image mark {
+  background-color: rgba(240, 240, 240, 0.75);
+  color: #FF6100;
+  padding: 3px 5px; }
+
+.header-image mark {
+  background-color: rgba(240, 240, 240, 0.75);
+  color: #FF005D;
+  padding: 3px 5px; }
+
+.ad-image {
+  position: relative; }
+  .ad-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .ad-image h4 {
+    font-size: 30pt;
+    font-weight: 700;
+    color: #FF6100; }
+
+.padding {
+  padding: 40px 0 0 0; }
+
+.formbox {
+  padding: 40px;
+  background-color: #F5F5F5;
+  border-radius: 5px; }
+
+.button-primary, .buttons {
+  background-color: #ff8000; }
+
+.row {
+  padding-bottom: 0; }
+
+.padding-fix p {
+  padding-top: 0;
+  margin-top: 0px; }
+
+.bodytext-fix {
+  margin: 0 0 40px 0; }
+
+.text-fix {
+  margin: 10px 0 40px 0; }
+
+.bodytext i {
+  padding: 0 20px 0 0; }
+
+input[type="submit"].button-primary {
+  background-color: white;
+  color: #000000;
+  border-radius: 0; }
+  input[type="submit"].button-primary:hover, input[type="submit"].button-primary:focus {
+    background-color: white;
+    color: #000000;
+    border-radius: 0; }
+
+input[type="email"]:focus {
+  border: 1px solid #ff8000; }
+
+textarea:focus, select:focus {
+  border: 1px solid #ff8000; }
+
+input[type="submit"].button-primary {
+  border: 1.5px solid #000000; }
+  input[type="submit"].button-primary:hover, input[type="submit"].button-primary:focus {
+    border: 1.5px solid #ff8000; }
+
+form {
+  margin-bottom: 0; }
+
+.post-preview {
+  background-color: #E8E8E8;
+  padding: 25px;
+  margin: 0 0 40px 0; }
+  .post-preview img {
+    height: 100%;
+    width: 100%; }
+  .post-preview h4 {
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 500; }
+  .post-preview p {
+    padding: 0; }
+
+.readmore {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .readmore:hover {
+    color: #FF005D; }
+
+/* Mobile */
+@media screen and (min-width: 180px) and (max-width: 669px) {
+  /*Home Page*/
+  .nav {
+    display: none; }
+  .sidenav {
+    padding-top: 80px; }
+    .sidenav a {
+      padding: 20px 8px 8px 8px; }
+  .header-title {
+    margin: 40px 0 60px 0; }
+  .header-image h4, .ad-image h4 {
+    padding: 0 20px 0 0;
+    font-size: 14pt; }
+  .header-image img, .ad-image img {
+    width: 120%;
+    height: 120%;
+    overflow: hidden; }
+  .image-text {
+    left: 20px;
+    bottom: 10px; }
+  .bodytext {
+    margin: 20px 20px 20px 20px; }
+  .footer-text {
+    padding-bottom: 30px; }
+    .footer-text p {
+      font-size: 10pt;
+      padding: 30px 10px 0 10px;
+      margin: 0 auto; }
+  /* Portfolio page */
+  .padding {
+    padding: 0 0 0 0; }
+  .sm-padding {
+    padding: 0px 0 0 0; }
+  .bodytext-fix {
+    margin: 0 20px; }
+  .post-preview {
+    margin: 0 20px 40px 20px; }
+  .button, button {
+    height: 25px;
+    padding: 0 15px 37px 15px; } }
+
+/* Phablet */
+@media screen and (min-width: 670px) and (max-width: 829px) {
+  /*Home Page*/
+  .nav {
+    display: none; }
+  .sidenav {
+    padding-top: 100px; }
+    .sidenav a {
+      padding: 30px 8px 8px 8px; }
+  .header-title {
+    margin: 40px 0 60px 0; }
+  .header-image h4, .ad-image h4 {
+    padding: 0 100px 0px 0;
+    font-size: 22pt; }
+  .bodytext {
+    margin: 40px 40px 40px 40px; }
+  .bodytext-fix {
+    margin: 0 40px 40px 40px; }
+  .footer-text {
+    padding-bottom: 30px; }
+    .footer-text p {
+      font-size: 10pt;
+      padding: 30px 10px 0 10px;
+      margin: 0 auto; }
+  /* Portfolio page */
+  .padding {
+    padding: 0; }
+  .padding-fix p {
+    padding: 0 10px; } }
+
+/* Tablet */
+@media screen and (min-width: 830px) and (max-width: 1024px) {
+  /*Home Page*/
+  .bodytext {
+    margin: 40px 40px 40px 40px; }
+  .footer-text {
+    padding-bottom: 40px; }
+    .footer-text p {
+      font-size: 10pt;
+      padding: 40px 0 0 0;
+      margin: 0 auto; }
+  .sidenav, .open-nav {
+    display: none; } }
+
+/* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1900px) {
+  .sidenav, .open-nav {
+    display: none; } }
